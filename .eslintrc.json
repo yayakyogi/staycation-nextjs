@@ -36,7 +36,9 @@
         // nonaktifkan linebreak
         "linebreak-style":0,
         // menonaktifkan extension ketika import
-        "import/extensions": "off"
+        "import/extensions": "off",
+        // menonaktifan export yang hanya export default
+        "import/prefer-default-export" : "off"
     },
     "settings": {
         "import/resolver": {
