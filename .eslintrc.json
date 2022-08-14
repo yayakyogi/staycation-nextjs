@@ -1,3 +1,48 @@
 {
-  "extends": "next/core-web-vitals"
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "@typescript-eslint"
+    ],
+    "rules": {
+        "react/function-component-definition": [2, {
+            "namedComponents": "function-declaration",
+            "unnamedComponents": "function-expression"
+          }],
+        // mengizinkan file dengan extension .tsx
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx",".ts",".tsx"] }],
+        // menonaktifkan import react
+        "react/react-in-jsx-scope" : "off",
+        // menonaktifkan quotes di .tsx
+        "quotes": "off",
+        "@typescript-eslint/quotes": ["error"],
+        // menonaktifkan no spreading
+        "react/jsx-props-no-spreading": "off",
+        // nonaktifkan linebreak
+        "linebreak-style":0,
+        // menonaktifkan extension ketika import
+        "import/extensions": "off"
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "extensions": [".js", ".jsx", ".ts", ".tsx"] // https://stackoverflow.com/questions/55198502/using-eslint-with-typescript-unable-to-resolve-path-to-module
+            }
+        }
+    }
 }
