@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
-import { Header, Footer } from "../Molecul";
+import { Header } from "../Molecul";
+import { Footer } from "../Organism";
 
 interface LayoutInterFace {
   children: ReactNode;
