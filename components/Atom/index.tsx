@@ -1,5 +1,5 @@
-import TitleNavbar from "./TitleNavbar";
+import Title from "./Title";
 import ButtonLink from "./ButtonLink";
 import ButtonSubmit from "./ButtonSubmit";
 
-export { TitleNavbar, ButtonLink, ButtonSubmit };
+export { Title, ButtonLink, ButtonSubmit };
