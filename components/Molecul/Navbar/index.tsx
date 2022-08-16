@@ -1,4 +1,4 @@
-import { ButtonLink, TitleNavbar } from "../../Atom";
+import { ButtonLink, Title } from "../../Atom";
 
 interface NavbarInterface {
   isCenterTitle: Boolean;
@@ -11,7 +11,7 @@ export default function Navbar({ isCenterTitle }: NavbarInterface) {
         isCenterTitle ? "justify-center" : "justify-between"
       }`}
     >
-      <TitleNavbar />
+      <Title />
       {!isCenterTitle && (
         <div className="flex">
           <ButtonLink route="/" title="Home" />
