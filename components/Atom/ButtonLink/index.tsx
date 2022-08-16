@@ -1,12 +1,12 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-interface ButtonLinkInterface {
+interface ButtonLinkProps {
   title: String;
   route: any;
 }
 
-export default function ButtonLink(props: ButtonLinkInterface) {
+export default function ButtonLink(props: ButtonLinkProps) {
   const { title, route } = props; // props
   const router = useRouter(); // untuk mengambil pathname
 

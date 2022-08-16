@@ -1,12 +1,12 @@
 import Link from "next/link";
 
-interface ButtonSubmitInterface {
+interface ButtonSubmitProps {
   isPrimary: Boolean;
   title: String;
   route: any;
 }
 
-export default function ButtonSubmit(props: ButtonSubmitInterface) {
+export default function ButtonSubmit(props: ButtonSubmitProps) {
   const { isPrimary, title, route } = props;
   return (
     <Link href={route}>
