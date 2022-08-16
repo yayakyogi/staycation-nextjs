@@ -38,7 +38,9 @@
         // menonaktifkan extension ketika import
         "import/extensions": "off",
         // menonaktifan export yang hanya export default
-        "import/prefer-default-export" : "off"
+        "import/prefer-default-export" : "off",
+        // menonaktifan baris pada object
+        "object-curly-newline" : "off"
     },
     "settings": {
         "import/resolver": {
