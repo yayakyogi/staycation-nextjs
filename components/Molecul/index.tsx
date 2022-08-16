@@ -1,6 +1,6 @@
 import HeroItem from "./HeroItem";
 import Header from "./Navbar";
-import Footer from "./Footer";
 import CardMostPicked from "./CardMostpicked";
+import CardCategories from "./CardCategories";
 
-export { Header, Footer, HeroItem, CardMostPicked };
+export { Header, HeroItem, CardMostPicked, CardCategories };
