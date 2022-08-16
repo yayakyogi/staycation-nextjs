@@ -1,6 +1,5 @@
 import { ReactNode } from "react";
-import Header from "../Header";
-import Footer from "../Footer";
+import { Header, Footer } from "../Molecul";
 
 interface LayoutInterFace {
   children: ReactNode;
@@ -10,7 +9,7 @@ export default function Layout(props: LayoutInterFace) {
   const { children } = props;
   return (
     <>
-      <Header />
+      <Header isCenterTitle={false} />
       {children}
       <Footer />
     </>
