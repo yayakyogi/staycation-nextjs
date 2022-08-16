@@ -40,7 +40,9 @@
         // menonaktifan export yang hanya export default
         "import/prefer-default-export" : "off",
         // menonaktifan baris pada object
-        "object-curly-newline" : "off"
+        "object-curly-newline" : "off",
+        // menonaktifan require props
+        "react/require-default-props" : "off"
     },
     "settings": {
         "import/resolver": {
