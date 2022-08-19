@@ -12,9 +12,9 @@ export default function ButtonSubmit(props: ButtonSubmitProps) {
     <Link href={route}>
       <button
         type="button"
-        className={`px-8 py-2 text-base font-poppins-medium ${
+        className={`w-full px-8 py-3 text-base font-poppins-medium ${
           isPrimary
-            ? "bg-primary text-white shadow-lg shadow-blue-100"
+            ? "bg-primary text-white shadow-lg shadow-blue-200"
             : "bg-secondary text-primary"
         }`}
       >
