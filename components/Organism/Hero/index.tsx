@@ -1,10 +1,10 @@
 import Image from "next/image";
 import { ButtonSubmit } from "../../Atom";
-import { HeroItem } from "../../Molecul";
+import { ItemIcon } from "../../Molecul";
 
 export default function Hero() {
   return (
-    <div className="px-44 mt-14 mb-20 flex justify-between items-start">
+    <div className="mt-14 mb-20 flex justify-between items-start">
       {/* Content left */}
       <div className="w-96">
         <h1 className="text-4xl text-primary font-poppins-bold leading-snug">
@@ -14,22 +14,27 @@ export default function Hero() {
           We provide what you need to enjoy your holiday with family. Time to
           make another memorable moments.
         </p>
-        <ButtonSubmit isPrimary route="/" title="Show me now" />
+        <div className="w-52">
+          <ButtonSubmit isPrimary route="/" title="Show me now" />
+        </div>
         <div className="mt-8 flex justify-between items-center">
-          <HeroItem
+          <ItemIcon
             image="/icons/ic_traveler.png"
             total={80.409}
             title=" travelers"
+            isHeroPage
           />
-          <HeroItem
+          <ItemIcon
             image="/icons/ic_treasure.png"
             total={882}
             title=" treasure"
+            isHeroPage
           />
-          <HeroItem
+          <ItemIcon
             image="/icons/ic_cities.png"
             total={1.492}
             title=" cities"
+            isHeroPage
           />
         </div>
       </div>
