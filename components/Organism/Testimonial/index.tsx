@@ -3,13 +3,13 @@ import { ButtonSubmit } from "../../Atom";
 
 export default function Testimonial() {
   return (
-    <div className="flex items-start mb-28 px-44 h-[541]">
+    <div className="flex items-start mb-28 ">
       {/* image testimonial */}
-      <div className="relative w-1/2 mr-20">
-        <div className="absolute w-80 top-5 left-5 z-10">
+      <div className="relative w-1/2">
+        <div className="absolute w-96 top-7 left-7 z-10">
           <Image src="/images/img-testimonial.png" width={300} height={400} />
         </div>
-        <div className="absolute w-80 top-0 left-0">
+        <div className="absolute w-96 top-0 left-0">
           <Image
             src="/images/img-frame-testimonial.png"
             width={300}
@@ -36,7 +36,9 @@ export default function Testimonial() {
         <p className="font-poppins-light text-lg text-secondary mb-14">
           Angga, Product Designer
         </p>
-        <ButtonSubmit isPrimary title="Read Their Story" route="/" />
+        <div className="w-52">
+          <ButtonSubmit isPrimary title="Read Their Story" route="/" />
+        </div>
       </div>
     </div>
   );
