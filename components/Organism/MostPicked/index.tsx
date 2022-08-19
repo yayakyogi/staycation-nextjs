@@ -2,7 +2,7 @@ import { CardMostPicked } from "../../Molecul";
 
 export default function MostPicked() {
   return (
-    <div className="px-44 mb-20">
+    <div className="mb-20">
       <h1 className="text-2xl font-poppins-medium mb-5">Most Picked</h1>
       <div className="grid grid-rows-4 grid-flow-col gap-4">
         <div className="col-span-2 row-span-4">
