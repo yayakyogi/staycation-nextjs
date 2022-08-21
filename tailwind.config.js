@@ -23,10 +23,14 @@ module.exports = {
       backgroundColor: {
         primary: "#3252DF",
         secondary: "#F5F6F8",
+        grey: "#E5E5E5",
         red: "#E74C3C",
         green: "#1ABC9C",
         pink: "#FF498B",
         dark: "#152C5B",
+      },
+      borderColor: {
+        grey: "#E5E5E5",
       },
     },
   },
