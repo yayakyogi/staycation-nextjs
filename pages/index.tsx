@@ -1,20 +1,20 @@
 import {
   Categories,
   Hero,
-  Layout,
+  GlobalTemplate,
   MostPicked,
   Testimonial,
 } from "../components";
 
 export default function Home() {
   return (
-    <Layout>
+    <GlobalTemplate>
       <Hero />
       <MostPicked />
       <Categories />
       <Categories />
       <Categories />
       <Testimonial />
-    </Layout>
+    </GlobalTemplate>
   );
 }

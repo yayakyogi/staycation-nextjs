@@ -5,7 +5,7 @@ import {
   Categories,
   DetailAbout,
   DetailPhotos,
-  Layout,
+  GlobalTemplate,
   Testimonial,
 } from "../../components";
 
@@ -14,7 +14,7 @@ export default function Detail() {
   const { id } = route.query; // get parans from url
 
   return (
-    <Layout>
+    <GlobalTemplate>
       <Breadcrumb />
       <DetailPhotos />
       <div className="flex justify-between items-start mb-8">
@@ -23,6 +23,6 @@ export default function Detail() {
       </div>
       <Categories />
       <Testimonial />
-    </Layout>
+    </GlobalTemplate>
   );
 }
