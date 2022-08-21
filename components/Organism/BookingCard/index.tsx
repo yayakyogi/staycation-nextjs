@@ -33,7 +33,7 @@ export default function BookingCard() {
       <BookingPayment night={2} total={390} />
 
       {/* component button */}
-      <ButtonSubmit isPrimary route="/" title="Continue to Book" />
+      <ButtonSubmit isPrimary route="/booking" title="Continue to Book" />
     </div>
   );
 }
