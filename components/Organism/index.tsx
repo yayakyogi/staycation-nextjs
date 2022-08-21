@@ -8,6 +8,7 @@ import Breadcrumb from "./Breadcrumb";
 import DetailPhotos from "./DetailPhotos";
 import DetailAbout from "./DetailAbout";
 import BookingCard from "./BookingCard";
+import BookingItem from "./BookingItem";
 
 export {
   Navbar,
@@ -20,4 +21,5 @@ export {
   DetailPhotos,
   DetailAbout,
   BookingCard,
+  BookingItem,
 };

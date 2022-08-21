@@ -5,6 +5,7 @@ import BookingPrice from "./BookingPrice";
 import BookingLong from "./BookingLong";
 import BookingDate from "./BookingDate";
 import BookingPayment from "./BookingPayment";
+import PageController from "./PageController";
 
 export {
   ItemIcon,
@@ -14,4 +15,5 @@ export {
   BookingLong,
   BookingDate,
   BookingPayment,
+  PageController,
 };
