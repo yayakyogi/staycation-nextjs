@@ -16,7 +16,7 @@ export default function PageController(props: PageControllerProps) {
             isDone={indexActive > 1}
           />
         </div>
-        <div className="h-0.5 w-28 bg-grey" />
+        <div className="h-0.5 w-20 bg-grey" />
         <div className={`w-14 ${indexActive === 1 && "-ml-1"}`}>
           <IndexController
             index={2}
