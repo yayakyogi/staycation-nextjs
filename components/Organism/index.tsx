@@ -9,6 +9,8 @@ import DetailPhotos from "./DetailPhotos";
 import DetailAbout from "./DetailAbout";
 import BookingCard from "./BookingCard";
 import BookingItem from "./BookingItem";
+import BookingAmount from "./BookingAmount";
+import BookingCompleted from "./BookingCompleted";
 
 export {
   Navbar,
@@ -22,4 +24,6 @@ export {
   DetailAbout,
   BookingCard,
   BookingItem,
+  BookingAmount,
+  BookingCompleted,
 };
