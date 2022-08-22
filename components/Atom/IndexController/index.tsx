@@ -9,7 +9,11 @@ interface IndexControllerProps {
 export default function IndexController(props: IndexControllerProps) {
   const { index, isActive = false, isDone = false } = props;
   if (isDone) {
-    return <Image src="/icons/ic_done.png" width={60} height={60} />;
+    return (
+      <div className="w-12 h-12">
+        <Image src="/icons/ic_done.png" width={80} height={80} />
+      </div>
+    );
   }
   return (
     <div
