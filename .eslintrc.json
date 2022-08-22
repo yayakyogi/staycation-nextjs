@@ -42,7 +42,11 @@
         // menonaktifan baris pada object
         "object-curly-newline" : "off",
         // menonaktifan require props
-        "react/require-default-props" : "off"
+        "react/require-default-props" : "off",
+        // izinkan opeartor berada di samping kondisi
+        "operator-linebreak": ["error", "after"],
+        // matikan indentasi
+        "indent": "off"
     },
     "settings": {
         "import/resolver": {
